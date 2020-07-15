@@ -22,7 +22,7 @@ spec:
             exclude: ["kube-*"]
             include: ["default"]
           object-templates:
-            - complianceType: mustonlyhave # role definition should exact match
+            - complianceType: mustonlyhave # role definition should be an exact match
               objectDefinition:
                 apiVersion: rbac.authorization.k8s.io/v1
                 kind: Role
